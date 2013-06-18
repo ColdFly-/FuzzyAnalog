@@ -2,7 +2,9 @@
 
 Fuzzy Analog watch with date
 
-gratefully based on Simple Analog Watchface by Ice2097
+based on watchface Simple Analog by Ice2097
+programming done by true rookie made possible by superb cloudpebble.net tool by Katharine
+Big thank you to both
  */
 
 #include "pebble_os.h"

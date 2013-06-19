@@ -1,79 +1,9 @@
 {
     "media": [
         {
-            "defName": "FONT_PIX_14",
-            "type": "font",
-            "file": "fonts/8-BIT WONDER.TTF"
-        },
-        {
-            "defName": "IMAGE_MENU_ICON",
+            "defName": "IMAGE_HOUR_HAND_12",
             "type": "png",
-            "file": "images/menu_icon_fuzan_watch.png"
-        },
-        {
-            "defName": "IMAGE_BACKGROUND",
-            "type": "png",
-            "file": "images/fuzan_watch_background.png"
-        },
-        {
-            "defName": "IMAGE_MINUTE_HAND",
-            "type": "png",
-            "file": "images/fuzan_watch_minute_hand.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_0",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_0.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_1",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_1.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_2",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_2.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_3",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_3.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_4",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_4.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_5",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_5.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_6",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_6.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_7",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_7.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_8",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_8.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_9",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_9.png"
-        },
-        {
-            "defName": "IMAGE_HOUR_HAND_10",
-            "type": "png",
-            "file": "images/fuzan_watch_hour_hand_10.png"
+            "file": "images/fuzan_watch_hour_hand_12.png"
         },
         {
             "defName": "IMAGE_HOUR_HAND_11",
@@ -81,9 +11,79 @@
             "file": "images/fuzan_watch_hour_hand_11.png"
         },
         {
-            "defName": "IMAGE_HOUR_HAND_12",
+            "defName": "IMAGE_HOUR_HAND_10",
             "type": "png",
-            "file": "images/fuzan_watch_hour_hand_12.png"
+            "file": "images/fuzan_watch_hour_hand_10.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_9",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_9.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_8",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_8.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_7",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_7.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_6",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_6.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_5",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_5.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_4",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_4.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_3",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_3.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_2",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_2.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_1",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_1.png"
+        },
+        {
+            "defName": "IMAGE_HOUR_HAND_0",
+            "type": "png",
+            "file": "images/fuzan_watch_hour_hand_0.png"
+        },
+        {
+            "defName": "IMAGE_MINUTE_HAND",
+            "type": "png",
+            "file": "images/fuzan_watch_minute_hand.png"
+        },
+        {
+            "defName": "IMAGE_BACKGROUND",
+            "type": "png",
+            "file": "images/fuzan_watch_background.png"
+        },
+        {
+            "defName": "IMAGE_MENU_ICON",
+            "type": "png",
+            "file": "images/menu_icon_fuzan_watch.png"
+        },
+        {
+            "defName": "FONT_PIX_14",
+            "type": "font",
+            "file": "fonts/8-BIT WONDER.TTF"
         }
     ],
     "friendlyVersion": "VERSION",

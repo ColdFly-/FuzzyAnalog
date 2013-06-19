@@ -12,8 +12,8 @@ Big thank you to both
 #include "pebble_fonts.h"
 
 
-#define MY_UUID { 0x25, 0x2D, 0x82, 0x5C, 0xF5, 0x82, 0x40, 0xE1, 0x90, 0xBA, 0x46, 0x0B, 0x2C, 0x03, 0x50, 0x8D }
-PBL_APP_INFO(MY_UUID, "Fuzzy Analog (US)", "ColdFly", 0x1, 0x0, RESOURCE_ID_IMAGE_MENU_ICON, APP_INFO_WATCH_FACE);
+#define MY_UUID { 0xCA, 0x64, 0x30, 0x80, 0xC4, 0xB5, 0x44, 0x22, 0x94, 0x82, 0x89, 0xD3, 0x1B, 0x7C, 0xC5, 0x70 }
+PBL_APP_INFO(MY_UUID, "Fuzzy Analog", "ColdFly", 0x1, 0x0, RESOURCE_ID_IMAGE_MENU_ICON, APP_INFO_WATCH_FACE);
 
 
 Window window;
@@ -155,8 +155,9 @@ void update_hand_positions () {
 
   // SET HAND ANGLES	
   set_hand_angle(&hour_hand_image_container, ((t.tm_hour % 12) * 30) + (t.tm_min/2) + 360); // Add 360 to make sure time shows at midnight
-  set_hand_angle(&minute_hand_image_container, t.tm_min * 6); // OPTION - add 360 to show minute hand at full hour
-  	
+
+  set_hand_angle(&minute_hand_image_container, (t.tm_min * 6)); // OPTION - add 360 to show minute hand at full hour
+
 
 }
 
@@ -168,7 +169,7 @@ void handle_minute_tick(AppContextRef ctx, PebbleTickEvent *t) {
   (void)t;
   (void)ctx;
   static char date_text[] = "XXX 00 XXX";
-  string_format_time(date_text, sizeof(date_text), "%b %d %a", t->tick_time);
+  string_format_time(date_text, sizeof(date_text), "%a %d %b", t->tick_time);
   text_layer_set_text(&text_date_layer, date_text);
   update_hand_positions(); // TODO: Pass tick event
 }

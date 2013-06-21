@@ -154,7 +154,7 @@ void update_hand_positions () {
   rot_bitmap_set_src_ic(&hour_hand_image_container.layer, GPoint(8, 48)); // 50% of width,  max length less 50% width 
 
   // SET HAND ANGLES	
-  set_hand_angle(&hour_hand_image_container, ((t.tm_hour % 12) * 30) + (t.tm_min/2) + 360); // Add 360 to make sure time shows at midnight
+  set_hand_angle(&hour_hand_image_container, ((t.tm_hour % 12) * 30) + MAX(0,(t.tm_min/2 - 7)) + 360); // Add 360 to make sure time shows at midnight
 
   set_hand_angle(&minute_hand_image_container, (t.tm_min * 6)); // OPTION - add 360 to show minute hand at full hour
 
@@ -169,7 +169,7 @@ void handle_minute_tick(AppContextRef ctx, PebbleTickEvent *t) {
   (void)t;
   (void)ctx;
   static char date_text[] = "XXX 00 XXX";
-  string_format_time(date_text, sizeof(date_text), "%a %d %b", t->tick_time);
+  string_format_time(date_text, sizeof(date_text), "%a %d %b", t->tick_time); // in US version change to "%b %d %a"
   text_layer_set_text(&text_date_layer, date_text);
   update_hand_positions(); // TODO: Pass tick event
 }
